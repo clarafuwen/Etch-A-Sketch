@@ -1,0 +1,1 @@
+This is practice project that simulate Etch-A-Sketch using Vanilla Javascript and CSS flexbox 
