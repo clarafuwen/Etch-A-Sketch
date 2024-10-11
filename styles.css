@@ -100,8 +100,6 @@ select {
   width: 60rem;
   height: 60rem;
   border: 5rem solid red;
-  /* justify-content:center;
-  align-items:center; */
 }
 .row{
   display: flex;
