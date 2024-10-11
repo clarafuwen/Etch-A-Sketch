@@ -92,14 +92,39 @@ select {
 }
 
 /* container styles */
-.container{
-  margin: 0 auto;
 
+
+.buttons{
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.buttons > *{
+  border-radius: 0.5rem;
+}
+.penColor{
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  border: none;
+  color: white;
+}
+
+.erase_on{
+  color: white;
+  background-color: black;
+}
+
+.board{
+  margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
+  border: 2rem solid pink;
+  border-radius: 1rem;
   width: 60rem;
   height: 60rem;
-  border: 5rem solid red;
 }
 .row{
   display: flex;
@@ -113,11 +138,16 @@ select {
   flex: 1 1 auto;
 }
 
-.dark{
+.black{
+  background-image: none;
   background-color: black;
 }
 
 .prompt{
   display: block;
-  margin: 20px auto;
+  /* margin: 20px auto; */
 }
+
+/* .erase_effect{
+  background-color: transparent;
+} */
